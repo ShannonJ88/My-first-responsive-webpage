@@ -1,0 +1,470 @@
+/* 
+    Created on : Jul 14, 2017, 11:36:02 AM
+    Author     : ShannonJulion
+*/
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+     
+}
+
+#home {
+    background: linear-gradient(aliceblue, steelblue);
+    font-family: Ariel, Geneva, Tahoma;
+    max-width: 55em;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+   
+}
+
+
+
+
+.wrapperpage {
+    background-color: white;
+    padding: 1em 1em 1em 1em;
+    box-shadow: 0 0 8px 1px black;
+    
+    
+    
+}
+h1 {
+    color: dimgray;
+    font-size: 1.5em;
+    text-shadow: 2x;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 100%;
+}
+
+/* CONTENT
+----------------------------*/
+
+.container,
+.container2,
+.container3 {
+    line-height: 1.5; 
+    max-width: 100%;
+}
+main {
+    float: left;
+    width: 69%;
+    background: #cccccc;
+    border-radius: 15px;
+    margin-bottom: 1em;
+} 
+.date,
+.descriptions,
+.about {
+    color: grey;
+}
+.intro, 
+.intro2,
+.book2,
+.html-css,
+.database-systems,
+.java-programming
+{
+    border-bottom: 2px solid grey;
+    margin: 1em;
+    
+}
+.intro3,
+.intro4 {
+    margin: 1em;
+    text-align: justify;
+}
+#please_fill {
+    color: red;
+    font-weight: 800;
+    
+}
+.book,
+.book2,
+.html-css,
+.database-systems,
+.java-programming {
+    padding: 1em;
+   
+}
+
+/*:::: Links ::::*/
+.intro a,
+.intro2 a,
+.intro3 a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+.intro a:hover,
+.intro2 a:hover,
+.intro3 a:hover{
+    text-decoration: underline;
+    
+}
+.intro p,
+.intro2 p,
+.book2 p,
+.html-css p,
+.database-systems p
+.java-programming p
+.intro3 p {
+   text-align: justify;
+   
+}
+.book p,
+.book2 p,
+.html-css p,
+.database-systems p,
+.java-programming p {
+   margin: auto;
+   text-align: justify;
+   
+}
+.book img {
+    border: 4px solid #66ccff;
+    float: left;
+    margin-bottom: 1em;
+    margin-right: .5em;
+    
+}
+.book2 img {
+    float: left;
+    margin-bottom: 1em;
+    margin-right: .5em;
+}
+.html-css img {
+    float: left;
+    margin-right: .5em;
+}
+
+.database-systems img {
+    float: left;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+.java-programming img {
+    float: left;
+    margin-bottom: 1em;
+    margin-right: .5em;
+}
+.sidebar {
+    float: right;
+    width: 28%;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    font-size: .76em;
+    border-color: black;
+    box-shadow: 0 0 1px; 
+    margin-bottom: 1em;
+}
+.sidebar ul {
+ list-style-position: outside;
+ padding-left: 1em
+}
+.sidebar h2 {
+    text-align: center;
+    color: darkblue;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+   
+    color: darkblue;
+    text-decoration: none;
+
+}
+
+
+.sidebar li {
+    list-style: none;
+    text-decoration: none;
+    padding: .9em
+    
+ 
+    
+ 
+}
+.sidebar li:visited {
+    text-decoration: none;
+}
+.sidebar a{
+    text-decoration: none;
+    color: darkblue;
+   
+    
+}
+.sidebar li:hover {
+    text-decoration: underline;
+}
+/*NAVIGATION BAR
+-------------------------------------------*/
+.masthead {
+   padding-top: 10px;
+   position: relative; 
+   
+}
+.header{
+    font-size: 5px;
+    line-height: 1;
+    margin-bottom: -8px;
+    margin-top: 0;
+  
+    
+   
+}
+.headerr,
+.headerr2 {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.header-photo,
+.cprogramming-photo {
+    max-width: 100%;
+}
+/* MAIN NAVIGATION
+-------------------------------------------*/
+
+.nav-main,
+.nav-main2 {
+    border-bottom: 1px solid #c8c8c8;
+    border-top: 3px solid blue;
+    margin-bottom: 0;
+    background-color: #f7f7f7;
+    padding-left: .45em;
+    
+}
+
+.nav-main li{
+
+    
+    display: inline-block;
+    text-align: center;
+    border-right: 1px  solid #c8c8c8;
+    
+  
+    
+}
+
+.nav-main a
+ {
+    
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125em;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: .5em 1.15em .5em 1.4em;
+    text-decoration: none;
+}
+
+
+
+
+
+footer {
+    border-top: 2px solid grey;
+    text-align: center;
+    clear: both;
+}
+footer li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer a:visited {
+    color: blue;
+}
+.social-media a:hover {
+    opacity: .7;
+}
+.footer-nav a {
+    text-decoration: none;
+    border-right: 1em;
+    
+}
+.footer-nav li:hover {
+    text-decoration: underline;
+}
+.footer-nav li {
+    border-right: 1px  solid #c8c8c8;
+    padding-right: .5em;
+}
+.footer-nav li:last-child {
+    border: none;
+}
+footer p {
+    color: #cccccc;
+}
+
+.contact_shannon {
+    background-color: blue;
+    text-align: center;
+    color: #eaeaea;
+    font-family: Verdana;  
+    max-width:100%;
+}
+
+fieldset{
+    
+    font-family: Verdana;
+    border: none;
+    margin-bottom: 1em;
+    overflow: hidden; 
+    
+    
+}
+.radios {
+    background-color: transparent;
+   position: relative;
+   margin-bottom: 0;
+   
+}
+
+
+
+   
+   
+
+textarea {
+    border-color: #eaeaea;
+    font: inherit;
+}
+.fields { 
+    background-color: #fff;    
+    padding: 1em;   
+}
+
+
+.fields .row {
+    margin: 0.5em 0;
+}
+.radios .row {
+   margin: 0 0 0 100px;
+}
+.radios legend {
+    left: 0;
+    padding: 0 2px;
+    position: absolute;
+    text-align: right;
+    
+    width: 98px;
+    
+}
+.radios label{
+    padding: 3px 6px;
+    text-align: right;
+    width: 100px;
+    vertical-align: middle;
+    
+    width: auto;
+}
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: right;
+    width: 100px;
+    vertical-align: top;
+}
+
+input {
+    font: inherit;
+}
+
+
+.field-small{
+    width: 250px;
+}
+.field-large {
+    width: 350px;
+}
+.submit_button {
+    background: linear-gradient(to top, blue, steelblue);
+    border: black;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px #333;
+    padding: 12px;
+    margin: 12px 0 0 26px;
+    text-shadow: 1px 1px 0px #777;
+    font: inherit;
+}
+
+/*----------------------Table-----------------------*/
+table {
+    border-collapse: collapse;
+    font-family: "Trebuchet MS";
+    margin: 1em;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    
+}
+th {
+    background-color: blue;
+    color: white;
+    text-align: left;
+    
+}
+tr:nth-of-type(odd){
+    background: linear-gradient(aliceblue, powderblue);
+}
+th,
+td {
+    font-size: .85em;
+    padding: .5em .75em;
+}
+td {
+    border: 1px solid dodgerblue;
+}
+.nav-main a:hover {
+    color: #c8c8c8;
+    text-decoration: none;
+    background-color:blue;
+    
+        
+}
+.nav-main li:hover a:visited {
+    color: #c8c8c8;
+    background-color: blue;
+    
+    
+    
+}
+.nav-main a:visited {
+    color: blue;
+}
+
+.intro a:link,
+.intro a:visited {
+    color: magenta;
+}
+.intro2 a:visited {
+    color: magenta;
+}
+.intro3 a:link,
+.intro3 a:visited {
+    color: magenta;
+}
+
+.intro3 li {
+    padding-left: 2em;
+}
+.intro3 img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 8px;
+    border-radius: 15px;
+}
+
+img {
+    max-width: 100%
+}

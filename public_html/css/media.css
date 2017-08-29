@@ -1,0 +1,36 @@
+/* 
+    Created on : Jul 19, 2017, 11:31:17 AM
+    Author     : ShannonJulion
+*/
+
+@media only screen and (min-width: 30em){ 
+        /* Masthead */
+    .masthead {
+       position: relative;   
+        }
+        
+        .nav-main a {
+            font-size: 1.125em;
+            padding-left: 1.4em;
+            padding-right: 1.15em;
+            
+        }
+        .social-media li {
+            font-size: 1.125em;
+            display: none;
+        }
+        
+        
+        
+        
+}
+
+@media only sreen and (min-width: 30em) and (max-width: 47em){
+    .sidebar {
+        float: right;
+        margin-top: 1.875em;
+        width: 31.25%;
+    }
+    
+    
+}

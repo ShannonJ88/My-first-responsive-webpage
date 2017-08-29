@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel='stylesheet' href="css/style.css"/>
+        <title>Final Project</title>
+        <meta name='viewport' content="width=device-width, initial-scale=1" />
+    </head> 
+      
+    <body id='home'>
+   <div class="wrapperpage">
+<!-- ====START NAVIGATION BAR/MASTHEAD ==== -->       
+        <header class='masthead' role='banner'>
+            <p class='headerr'><a href='img/header.jpg'><img src='img/header.jpg' alt='Header' class='header-photo' /></a></p>
+            
+            <nav role='navigation'>
+                <ul class='nav-main'>
+                    <li><a href='index.html' class='current-page'>Home</a></li>
+                    <li><a href='books.html'>Books</a></li>
+                    <li><a href='about.html'>About</a></li>
+                    <li><a href='details.html'>Details</a></li>
+                    <li><a href='contact.html'>Contact</a></li>
+                    
+                </ul>
+     
+            </nav>
+            <h1>Contact Me</h1>
+        </header>
+<!-- end navigation bar -->
+
+    <div class="container3">
+<!-- ==== START MAIN ==== -->
+        <main role="main">
+            <section class='intro4'>
+                <p id="please_fill">Please fill out all of the fields</p>
+                <p>Please feel free to contact me with questions or comments. All
+                fields below are required so that I am able to properly respond back.
+                </p>   
+            </section>  
+    
+            <form method="post">
+   <!-- START CONTACT SHANNON FIELDS -->  
+   <fieldset> 
+       <h2 class="contact_shannon">Contact Shannon Julion</h2>
+       <div class="fields">
+           <p class="row">
+               <label for="first_name">First Name:</label>
+              <input type="text" id="first_name" name="first-name" placeholder="First Name" 
+                     class="field-small" required="required" aria-required="true" />
+           </p>
+           <p class="row">
+               <label for="last_name">Last Name:</label>
+               <input type="text" id="last_name" name="last-name" placeholder="Last Name"
+                      class="field-small" required="required" aria-required="true" />
+           </p>
+           <p class="row">
+               <label for="email">Email:</label>
+               <input type="text" id="email" name="email" placeholder="youremail@example.com"
+                      class="field-small" required="required" aria-required="true" />
+           </p>
+           <p class="row">
+               <label for="phone">Phone:</label>
+               <input type="text" id="phone" name="phone" placeholder="(###) ###-#####"
+                      class="field-small" required="required" aria-required="true" />
+           </p>
+           <p class="row">
+               <label for="message">Message:</label>
+               <textarea id="message" name="message" cols="60" rows="8" placeholder="Questions/Comments"
+                         class="field-large"></textarea>
+           </p>
+           
+           <fieldset class="radios">
+           <legend>Contact:</legend>
+           <p class="row">
+               <input type="radio" id="contact" name="contact_type" value="Business"/>
+               <label for="contact">Business</label>               
+           
+               <input type="radio" id="contact2" name="contact_type" value="Individual" />
+               <label for="contact">Individual</label>
+                
+           </p>
+            <input type="submit" value="Submit" class="submit_button" />
+          </fieldset>
+       </div>
+   </fieldset>
+  
+ <!--------- contact ---------->               
+            </form>
+               
+        </main>
+<!-- end main -->
+
+<!-- ====Start Sidebar==== -->
+<div class='sidebar'>
+<aside>
+    <article>
+        <h2>Contact Me</h2>
+        <ul>
+            <li><a href="books.html#html_anchor"><b>HTML and CSS.</b> Elizabeth Castro and Bruce Hyslop</a></li>
+            <li><a href='books.html#database_anchor'><b>Database Systems.</b> Hector Garcia-molina, Jefferey D. Ullman, and Jennifer Widom</a></li>
+            <li><a href='books.html#java_anchor'><b>Introduction to Java Programming. </b> Daniel Ling</a></li>
+        </ul>
+    </article>
+</aside>
+</div>
+<!-- end sidebar -->
+    </div>
+<!-- end container -->
+
+<!-- ====Start Page Footer==== -->
+      <footer>
+          <ul class='social-media'>
+              <li><a href='https://www.facebook.com/'><img src='img/facebook-icon.png'alt='Facebook'/></a></li>
+              <li><a href='https://twitter.com/'><img src='img/twitter-icon.png'alt='Twitter'/></a></li>
+              <li><a href='https://www.linkedin.com/'><img src='img/linkedin-icon.png'alt='LinkedIn'/></a></li>
+              <li><a href='https://www.pinterest.com/'><img src='img/pinterest-icon.png'alt='Pinterest'/></a></li>
+          </ul>
+          <nav role='navigation'>
+                <ul class='footer-nav'>
+                    <li><a href='index.html' class='footer-class'>Home</a></li>
+                    <li><a href='books.html'>Books</a></li>
+                    <li><a href='about.html'>About</a></li>
+                    <li><a href='details.html'>Details</a></li>
+                    <li><a href='contact.html'>Contact</a></li>
+                    
+                </ul>
+     
+            </nav>
+        <p><small>&copy;2017 By Shannon Julion. All Rights Reserved</small></p>
+                 
+      </footer>
+   </div>
+<!-- div end wrapperpage-->
+    </body>
+</html>
