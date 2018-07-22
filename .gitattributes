@@ -1,1 +1,3 @@
-*.css -text
+static/* linguist-vendored
+static/admin/css/* linguist-vendored
+*.css linguist-vendored
