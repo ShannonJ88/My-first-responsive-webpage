@@ -1,4 +1,9 @@
-# My-first-responsive-webpage
-Class Assignment Web Design
-First repository on github! I created the webpage for my CSC Web Design Class.  
-Only html and css. 
+# Responsive Webpage 
+Class Assignment for CSC 570 Web Design 
+Created first responisve webpage using HTML and CSS as an individual class assignment.  
+
+Author
+Shannon Julion
+
+Copyright and license
+Copyright 2017Shannon Julion under the MIT licencse
